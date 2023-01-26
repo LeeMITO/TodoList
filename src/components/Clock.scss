@@ -1,0 +1,18 @@
+.Clock {
+    margin-top: 60px;
+    color: white;
+    text-shadow: 1px 1px 1px #8977ad;
+    .CurTime {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .flexBox {
+        display: flex;
+        
+        .CurDate {
+            padding-right: 10px;
+            color: white;
+        }
+        
+    }
+}

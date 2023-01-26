@@ -1,0 +1,16 @@
+.Content {
+    position: absolute;
+    left: 40%;
+    top: 33px;
+    width: 512px;
+    height: calc(100% - 33px);
+    margin: auto 0;
+    color: black;
+    // background-color: white;
+    .cat {
+        // background-color: aqua;
+        position: absolute;
+        top: 50px;
+        right: 38%;
+    }
+}

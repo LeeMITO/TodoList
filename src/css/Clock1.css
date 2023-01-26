@@ -1,0 +1,16 @@
+.Clock {
+  margin-top: 60px;
+  color: white;
+  text-shadow: 1px 1px 1px #8977ad;
+}
+.Clock .CurTime {
+  font-size: 24px;
+  font-weight: 600;
+}
+.Clock .flexBox {
+  display: flex;
+}
+.Clock .flexBox .CurDate {
+  padding-right: 10px;
+  color: white;
+}/*# sourceMappingURL=Clock1.css.map */

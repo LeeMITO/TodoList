@@ -1,0 +1,64 @@
+.TodoListItem-virtualized { // 가상공간에 있는 리스트 스타일
+    // & + & {
+    //     // border-top: 1px solid #dee2e6;
+    // }
+    &:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+}
+.TodoListItem {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    &:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+
+    .checkbox {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        cursor: pointer;
+        svg {
+            //icon
+            font-size:1.5rem;
+        }
+        .text {
+            flex: 1;
+            margin-left: 0.5rem;
+        }
+
+        //checked
+        &.checked {
+            svg {
+                color: #3A3C68;
+            }
+            .text {
+                color: #DC948A;
+                text-decoration: line-through;
+            }
+        }
+    }
+
+    .edit {
+        cursor: pointer;
+        margin-right: 10px;
+        font-size: 1.3rem;
+        color: #81A6D3;
+        &:hover {
+            color: #000;
+        }
+    }
+
+    .remove {
+        display:flex;
+        align-items:center;
+        font-size: 1.5rem;
+        color: #ECC7C5;
+        cursor: pointer;
+        &:hover {
+            color: #ff8787;
+        }
+    }
+
+}

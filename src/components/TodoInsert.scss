@@ -1,0 +1,39 @@
+.TodoInsert {
+    display: flex;
+    // background-color: #495057;
+    background-color: rgba($color: #ffffff, $alpha: 0.5);
+    border-bottom: 1px solid #dee2e6;
+    input {
+        outline: none;
+        border: none;
+        padding: 0.5rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        color: black;
+        background: none;
+        &::placeholder {
+            color: rgba(129, 166, 211, 0.4);
+        }
+        flex: 1;
+    }
+    button {
+        outline: none;
+        border: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: #3A3C68;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        background-color: #F0EBEC;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        z-index: 100;
+        transition: 0.2s background-color ease-in;
+
+        &:hover {
+            background-color: #9c88ff;
+            color: white;
+        }
+    }
+}
